@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: greenyellow; /* Light Gray */
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+header {
+    background-color: #2c3e50; /* Dark Blue Gray */
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+p {
+    margin: 5px 0;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff; /* White */
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#about, #education, #skills, #projects, #hobbies, #contact {
+    margin-bottom: 30px;
+}
+
+.education-entry, .project, #hobbies ul {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-entry h3, .project h3, #hobbies h2 {
+    margin-bottom: 10px;
+    color: #3498db; /* Bright Blue */
+    transition: color 0.3s ease;
+}
+
+.education-entry p, .project p, #hobbies li, #contact p {
+    margin: 0;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for sections */
+.project, #hobbies li {
+    cursor: pointer;
+}
+
+.project:hover, #hobbies li:hover {
+    background-color: #d2d7db; /* Light Gray Blue */
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect for header */
+header:hover {
+    background-color: #34495e; /* Slightly Darker Blue Gray */
+    color: #ffffff;
+}
